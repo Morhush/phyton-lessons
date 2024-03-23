@@ -31,7 +31,7 @@ def main():
                 if event.button == 1:
                     is_button_action = PAIN_CIRCLE
                 if event.button == 3:
-                    is_button_action = CLEAR_CIRCLE
+                    is_button_action = CLEAR_CIRCLEw
             if event.type == pygame.MOUSEBUTTONUP:
                 print(is_button_action)
                 if event.button == 1 or event.button == 3:
